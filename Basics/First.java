@@ -1,6 +1,6 @@
 public class First {
 	public static void main(String[] args) {
-		System.out.printf("Hello, World!");
+		System.out.println("Hello, World!");
 	}
 }
 
@@ -12,4 +12,9 @@ println() -> method of PrintStream
 
 to compile	: javac First.java
 to run		: java First
+
+Command to Create a new file in cmd:
+- type NUL > ScanData.java
+
+
 */
