@@ -1,0 +1,49 @@
+1. Food Inventory Management
+   - Scenario: Manage a food inventory for a grocery store.
+   - Attributes: `FoodItem` class with `name`, `quantity`, and `pricePerUnit`.
+   - Library Class: `FoodInventory` that allows adding, removing, updating quantity, and showing all food items.
+
+2. Travel Itinerary
+   - Scenario: Manage a travel itinerary for a trip.
+   - Attributes: `Destination` class with `city`, `country`, and `attractions`.
+   - TravelItinerary Class: Allows adding, removing, editing, and displaying all destinations.
+
+3. Bank Account Management
+   - Scenario: Manage bank accounts for customers.
+   - Attributes: `BankAccount` class with `accountNumber`, `accountHolderName`, and `balance`.
+   - Bank Class: Supports depositing, withdrawing, transferring funds, and showing all accounts.
+
+4. Event Scheduling
+   - Scenario: Manage a schedule of events for a conference.
+   - Attributes: `Event` class with `eventName`, `date`, and `location`.
+   - EventSchedule Class: Allows adding, removing, updating, and displaying all events.
+
+5. Bookstore Catalog
+   - Scenario: Manage a catalog of books for a bookstore.
+   - Attributes: `Book` class with `title`, `author`, and `price`.
+   - Catalog Class: Supports adding, removing, updating book details, and displaying all books.
+
+6. Student Enrollment
+   - Scenario: Manage student enrollment for a course.
+   - Attributes: `Student` class with `studentName`, `studentID`, and `enrolledCourses`.
+   - EnrollmentSystem Class: Allows adding, removing, updating student details, and showing all enrolled students.
+
+7. Movie Collection
+   - Scenario: Manage a personal movie collection.
+   - Attributes: `Movie` class with `title`, `director`, and `releaseYear`.
+   - MovieCollection Class: Provides methods for adding, removing, updating, and displaying all movies.
+
+8. Product Catalog
+   - Scenario: Manage a catalog of products for an e-commerce site.
+   - Attributes: `Product` class with `productName`, `productID`, and `price`.
+   - ProductCatalog Class: Supports adding, removing, updating product information, and showing all products.
+
+9. Health Records
+   - Scenario: Manage health records for patients in a clinic.
+   - Attributes: `Patient` class with `name`, `patientID`, and `healthRecords`.
+   - HealthRecordsSystem Class: Allows adding, removing, updating health records, and displaying patient details.
+
+10. Vehicle Fleet Management
+    - Scenario: Manage a fleet of vehicles for a transportation company.
+    - Attributes: `Vehicle` class with `vehicleID`, `model`, and `status`.
+    - FleetManagement Class: Provides methods for adding, removing, updating vehicle details, and showing all vehicles.
