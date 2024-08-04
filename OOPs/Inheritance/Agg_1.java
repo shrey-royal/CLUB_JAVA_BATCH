@@ -65,12 +65,12 @@ class Library {
         for (int i = 0; i < count; i++) {
             if(books[i].getTitle().toLowerCase().equals(title.toLowerCase())) {
                 //shift books
-                    for (int j = i; j < count-1; j++) {
-                        books[j] = books[j+1];
-                    }
-                    books[count--] = null;  //clear the last reference
-                    System.out.println(title + " removed from the library! \n");
-                    return true;
+                for (int j = i; j < count-1; j++) {
+                    books[j] = books[j+1];
+                }
+                books[count--] = null;  //clear the last reference
+                System.out.println(title + " removed from the library! \n");
+                return true;
             }
         }
         System.out.println("Failed to remove book-: "+ title + "\n");
